@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StaySwift - Rooms</title>
+    <link rel="icon" type="image/png" href="Assets/Images/site-logo.png">
+    <link rel="stylesheet" href="Css/rooms.css"/>
+</head>
+<body>
+      <!-- Top Navbar -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <div class="logo"><img src="Assets/Images/logo.png" alt="logo"></div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html" class="active">Rooms</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#booking" class="btn-book">Book now</a>
+
+        <!-- Cart button -->
+        <button class="cart-btn" aria-label="Open cart">
+          <!-- cart icon (inline SVG) -->
+          <svg class="cart-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M6 6h15l-1.5 9H7.5L6 6Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M6 6L5 3H2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="9" cy="20" r="1.6" fill="currentColor"/>
+            <circle cx="18" cy="20" r="1.6" fill="currentColor"/>
+          </svg>
+          <span class="cart-badge" aria-hidden="true">0</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="rooms container">
+    <div class="room-container">
+
+    <!-- Deluxe Room -->
+    <div class="room" id="deluxe-room">
+        <div class="slider" data-index="0">
+            <div class="slide-images">
+                <img src="Assets/Images/deluxe room (1).jpg" alt="Deluxe Room 1">
+                <img src="Assets/Images/deluxe room (2).jpg" alt="Deluxe Room 2">
+                <img src="Assets/Images/deluxe room (3).jpg" alt="Deluxe Room 3">
+            </div>
+            <button class="slider-arrow left">&#10094;</button>
+            <button class="slider-arrow right">&#10095;</button>
+        </div>
+        <div class="room-content">
+            <h2>Deluxe Room</h2>
+            <p>Spacious room offering a breathtaking pool view and a plush king-size bed, designed for guests seeking comfort, elegance, and relaxation. Ideal for individuals, friends, or family members who appreciate a luxurious yet budget-friendly stay.</p>
+            <div class="price">$120 / night</div>
+            <a href="#" class="btn">Confirm Booking</a>
+        </div>
+    </div>
+
+    <!-- Suite Room -->
+    <div class="room" id="suite-room">
+        <div class="slider" data-index="0">
+            <div class="slide-images">
+                <img src="Assets/Images/suite-1.jpg" alt="Suite Room 1">
+                <img src="Assets/Images/suite-2.jpg" alt="Suite Room 2">
+                <img src="Assets/Images/suite-3.jpg" alt="Suite Room 3">
+            </div>
+            <button class="slider-arrow left">&#10094;</button>
+            <button class="slider-arrow right">&#10095;</button>
+        </div>
+        <div class="room-content">
+            <h2>Suite Room</h2>
+            
+            <p>Luxury suite with a private balcony, elegant interior, and a relaxing jacuzzi. Ideal for those who want a lavish and memorable experience.</p>
+            <div class="price">$220 / night</div>
+            <a href="#" class="btn">Confirm Booking</a>
+        </div>
+    </div>
+
+    <!-- Family Room -->
+    <div class="room" id="family-room">
+        <div class="slider" data-index="0">
+            <div class="slide-images">
+                <img src="Assets/Images/family-room (1).jpg" alt="Family Room 1">
+                <img src="Assets/Images/family-room (2).jpg" alt="Family Room 2">
+                <img src="Assets/Images/family-room (3).jpg" alt="Family Room 3">
+            </div>
+            <button class="slider-arrow left">&#10094;</button>
+            <button class="slider-arrow right">&#10095;</button>
+        </div>
+        <div class="room-content">
+            <h2>Family Room</h2>
+            <p>Comfortable and spacious room for up to 4 guests, with cozy bedding and a welcoming atmosphere for family trips.</p>
+            <div class="price">$180 / night</div>
+            <a href="#" class="btn">Confirm Booking</a>
+        </div>
+    </div>
+
+    <!-- Single Room -->
+    <div class="room" id="single-room">
+        <div class="slider" data-index="0">
+            <div class="slide-images">
+                <img src="Assets/Images/single-room (1).jpg" alt="Single Room 1">
+                <img src="Assets/Images/single-room (2).jpg" alt="Single Room 2">
+                <img src="Assets/Images/single-room (3).jpg" alt="Single Room 3">
+            </div>
+            <button class="slider-arrow left">&#10094;</button>
+            <button class="slider-arrow right">&#10095;</button>
+        </div>
+        <div class="room-content">
+            <h2>Single Room</h2>
+            <p>Cozy room designed for solo travelers. Equipped with a comfortable single bed and essential amenities for a peaceful stay.</p>
+            <div class="price">$90 / night</div>
+            <a href="#" class="btn">Confirm Booking</a>
+        </div>
+    </div>
+
+    <!-- Executive Suite -->
+    <div class="room" id="executive-suite">
+        <div class="slider" data-index="0">
+            <div class="slide-images">
+                <img src="Assets/Images/executive (1).jpg" alt="Executive Suite 1">
+                <img src="Assets/Images/executive (2).jpg" alt="Executive Suite 2">
+                <img src="Assets/Images/executive (3).jpg" alt="Executive Suite 3">
+            </div>
+            <button class="slider-arrow left">&#10094;</button>
+            <button class="slider-arrow right">&#10095;</button>
+        </div>
+        <div class="room-content">
+            <h2>Executive Suite</h2>
+            <p>Exclusive suite with top-class amenities, premium furniture, and a luxurious interior for business travelers and VIP guests.</p>
+            <div class="price">$300 / night</div>
+            <a href="#" class="btn">Confirm Booking</a>
+        </div>
+    </div>
+
+    <!-- Ocean View Villa -->
+    <div class="room" id="ocean-villa">
+        <div class="slider" data-index="0">
+            <div class="slide-images">
+                <img src="Assets/Images/villa (1).jpg" alt="Ocean View Villa 1">
+                <img src="Assets/Images/villa (2).jpg" alt="Ocean View Villa 2">
+                <img src="Assets/Images/villa (3).jpg" alt="Ocean View Villa 3">
+            </div>
+            <button class="slider-arrow left">&#10094;</button>
+            <button class="slider-arrow right">&#10095;</button>
+        </div>
+        <div class="room-content">
+            <h2>Ocean View Villa</h2>
+            <p>Private villa with a panoramic sea view, outdoor deck, and high-end facilities for the ultimate beachside luxury experience.</p>
+            <div class="price">$350 / night</div>
+            <a href="#" class="btn">Confirm Booking</a>
+        </div>
+    </div>
+
+</div>
+
+
+</div>
+
+  </div>
+  <div class="footer">
+     <footer class="site-footer">
+        <p>&copy; 2025 StaySwift. All rights reserved.</p>
+     </footer>
+   </div>
+
+<!-- Trigger Button -->
+<button id="confirmBookingBtn">Confirm Booking</button>
+
+<!-- Booking Popup -->
+<div id="bookingPopup" class="popup" style="display: none;">
+  <div class="popup-content">
+    <span class="close-btn">&times;</span>
+    <h2>Confirm Your Booking</h2>
+    <form id="bookingForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+      <label for="checkin">Check-in</label>
+      <input type="date" id="checkin" name="checkin" required>
+
+      <label for="checkout">Check-out</label>
+      <input type="date" id="checkout" name="checkout" required>
+
+      <label for="adults">Adults</label>
+      <select id="adults" name="adults">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+
+      <label for="children">Children</label>
+      <select id="children" name="children">
+        <option>0</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+
+      <button type="submit" class="confirm-btn">Confirm</button>
+    </form>
+  </div>
+</div>
+<!-- Cart Popup -->
+<div id="cartPopup" class="popup" style="display: none;">
+  <div class="popup-content">
+    <span class="close-cart">&times;</span>
+    <h2>Your Bookings</h2>
+    <ul id="cartItems"></ul>
+  </div>
+</div>
+
+
+
+
+
+  <script src="js/rooms.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>StaySwift - Home</title>
+  <link rel="icon" type="image/png" href="Assets/Images/site-logo.png">
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+
+  <!-- Top Navbar -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <div class="logo"><img src="Assets/Images/logo.png" alt="logo"></div>
+
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="rooms.html" class="btn-book">Book now</a>
+
+        <!-- Cart button -->
+        <button class="cart-btn" aria-label="Open cart">
+          <!-- cart icon (inline SVG) -->
+          <svg class="cart-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M6 6h15l-1.5 9H7.5L6 6Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M6 6L5 3H2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="9" cy="20" r="1.6" fill="currentColor"/>
+            <circle cx="18" cy="20" r="1.6" fill="currentColor"/>
+          </svg>
+          <span class="cart-badge" aria-hidden="true">0</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-overlay container">
+      <div class="hero-content ">
+        <div class="hero-text">
+          <div class="stars" aria-label="5 stars">★★★★★</div>
+          <h1>Welcome to Stay<span class="swift">Swift</span></span><br>5 star hotel</h1>
+          <p>Experience luxury and comfort at our world-class resort, where every detail is crafted to perfection.</p>
+        </div>
+
+        <!-- Booking card -->
+        <form id="booking" class="booking-form" action="#" method="get">
+          <label>Check-in
+            <input type="date" required>
+          </label>
+          <label>Check-out
+            <input type="date" required>
+          </label>
+          <label>Adults
+            <select aria-label="Adults">
+              <option>1</option><option>2</option><option>3</option><option>4</option><option>More</option>
+            </select>
+          </label>
+          <label>Children
+            <select aria-label="Children">
+              <option>0</option><option>1</option><option>2</option><option>More</option>
+            </select>
+          </label>
+          <button type="submit" class="search-btn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+              <path d="M20 20L17 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+
+
+   <div class="footer">
+     <footer class="site-footer">
+        <p>&copy; 2025 StaySwift. All rights reserved.</p>
+     </footer>
+   </div>
+
+  </section>
+
+
+  <!-- Search Results Modal -->
+<div id="resultsModal" class="modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <h2>Available Rooms</h2>
+    <div class="rooms-grid">
+      <div class="room-card">
+        <img src="Assets/Images/deluxe room (1).jpg" alt="Deluxe Room">
+        <h3>Deluxe Room</h3>
+        <p>Spacious room with pool view, king-size bed.</p>
+        <div class="price">$120 / night</div>
+        <a href="rooms.html#deluxe-room" class="room-details">Room details</a>
+      </div>
+      <div class="room-card">
+        <img src="Assets/Images/suite-1.jpg" alt="Suite Room">
+        <h3>Suite Room</h3>
+        <p>Luxury suite with balcony and private jacuzzi.</p>
+        <div class="price">$220 / night</div>
+        <a href="rooms.html#suite-room" class="room-details">Room details</a>
+      </div>
+      <div class="room-card">
+        <img src="Assets/Images/family-room (1).jpg" alt="Family Room">
+        <h3>Family Room</h3>
+        <p>Comfortable room for up to 4 guests.</p>
+        <div class="price">$180 / night</div>
+        <a href="rooms.html#family-room" class="room-details">Room details</a>
+      </div>
+      <div class="room-card">
+        <img src="Assets/Images/single-room (1).jpg" alt="Single Room">
+        <h3>Single Room</h3>
+        <p>Cozy room perfect for solo travelers.</p>
+        <div class="price">$90 / night</div>
+        <a href="rooms.html#single-room" class="room-details">Room details</a>
+      </div>
+      <div class="room-card">
+        <img src="Assets/Images/executive (1).jpg" alt="Executive Suite">
+        <h3>Executive Suite</h3>
+        <p>Exclusive suite with top-class amenities.</p>
+        <div class="price">$300 / night</div>
+        <a href="rooms.html#executive-suite" class="room-details">Room details</a>
+      </div>
+      <div class="room-card">
+        <img src="Assets/Images/villa (1).jpg" alt="Ocean View Villa">
+        <h3>Ocean View Villa</h3>
+        <p>Private villa with panoramic sea view, outdoor deck, and premium amenities.</p>
+        <div class="price">$350 / night</div>
+        <a href="rooms.html#ocean-villa" class="room-details">Room details</a>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div id="cartPopup" class="popup" style="display: none;">
+  <div class="popup-content">
+    <span class="close-cart">&times;</span>
+    <h2 class="cart-h2">Your Bookings</h2>
+    <ul id="cartItems"></ul>
+  </div>
+</div>
+
+
+
+
+
+
+<script src="script.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>

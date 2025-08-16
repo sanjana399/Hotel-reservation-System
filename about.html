@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StaySwift - About</title>
+    <link rel="icon" type="image/png" href="Assets/Images/site-logo.png">
+    <link rel="stylesheet" href="Css/about.css">
+</head>
+<body>
+
+    <!-- Top Navbar -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <div class="logo"><img src="Assets/Images/logo.png" alt="logo"></div>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rooms.html">Rooms</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="rooms.html" class="btn-book">Book now</a>
+
+        <!-- Cart button -->
+        <button class="cart-btn" aria-label="Open cart">
+          <!-- cart icon (inline SVG) -->
+          <svg class="cart-icon" width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M6 6h15l-1.5 9H7.5L6 6Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+            <path d="M6 6L5 3H2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="9" cy="20" r="1.6" fill="currentColor"/>
+            <circle cx="18" cy="20" r="1.6" fill="currentColor"/>
+          </svg>
+          <span class="cart-badge" aria-hidden="true">0</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+    <section id="about">
+  <div class="about-container">
+    
+    <!-- Image -->
+    <div class="about-image">
+      <img src="Assets/Images/about.jpg" alt="StaySwift Luxury Room">
+      <div class="image-badge">✨ Luxury & Comfort</div>
+    </div>
+    
+    <!-- Content -->
+    <div class="about-content">
+      <h2>About <span>StaySwift</span></h2>
+      <p>
+        At <strong>StaySwift</strong>, we make booking your perfect stay effortless. Whether you’re traveling for business or leisure, 
+        our platform offers a curated selection of luxurious hotels, cozy stays, and exclusive villas — all at your fingertips. 
+        With a seamless reservation process and top-notch customer support, we ensure every guest enjoys a smooth and memorable experience.
+      </p>
+      <a href="rooms.html">Explore Rooms →</a>
+    </div>
+
+  </div>
+</section>
+
+<div class="footer">
+     <footer class="site-footer">
+        <p>&copy; 2025 StaySwift. All rights reserved.</p>
+     </footer>
+   </div>
+
+   <div id="cartPopup" class="popup" style="display: none;">
+  <div class="popup-content">
+    <span class="close-cart">&times;</span>
+    <h2 class="cart-h2">Your Bookings</h2>
+    <ul id="cartItems"></ul>
+  </div>
+</div>
+
+<script src="js/about.js"></script>
+<script src="js/cart.js"></script>
+</body>
+</html>
