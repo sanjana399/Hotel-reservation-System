@@ -1,37 +1,39 @@
-🏨 Hotel Reservation System
-A web-based Hotel Reservation System built as a varsity project. The system allows users to browse available rooms, make reservations, and explore hotel-related information with a simple and interactive interface.
+# 🏨 Hotel Reservation System  
 
-🔗 Live Demo: Hotel Reservation System
+A web-based **Hotel Reservation System** built as a varsity project.  
+The system allows users to browse available rooms, make reservations, and explore hotel-related information with a simple and interactive interface.  
 
-🚀 Features
-Homepage with clean and user-friendly UI
+🔗 **Live Demo**: Hotel Reservation System  
 
-Room/package details display
+---
 
-Online reservation/booking form
+## 🚀 Features  
+- Homepage with clean and user-friendly UI  
+- Room/package details display  
+- Online reservation/booking form  
+- Navigation bar with easy access to pages  
+- Responsive design for different devices  
 
-Navigation bar with easy access to pages
+---
 
-Responsive design for different devices
+## 🛠️ Technologies Used  
+- **HTML5** – Structure  
+- **CSS3** – Styling  
+- **JavaScript (Vanilla)** – Interactivity  
+- **GitHub Pages** – Hosting  
 
-🛠️ Technologies Used
-HTML5 – Structure
+---
 
-CSS3 – Styling
+## 📂 Project Structure  
 
-JavaScript (Vanilla) – Interactivity
-
-GitHub Pages – Hosting
-
-📂 Project Structure: 
-```Hotel-Reservation-System/
+```
 ├── .git/
 ├── Assets/
-│   └── images/
+│ └── images/
 ├── Css/
-│   └── css files
+│ └── css files
 ├── js/
-│   └── js files
+│ └── js files
 ├── about.html
 ├── contact.html
 ├── index.html
@@ -40,11 +42,10 @@ GitHub Pages – Hosting
 ├── style.css
 ```
 
-🚀 How to Run the Project
-Install Visual Studio Code.
+---
 
-Install the Live Server extension in VS Code.
-
-Open the project folder in VS Code.
-
-Right-click on index.html → select "Open with Live Server".
+## 🚀 How to Run the Project  
+1. Install **Visual Studio Code**.  
+2. Install the **Live Server** extension in VS Code.  
+3. Open the project folder in VS Code.  
+4. Right-click on **index.html** → select **"Open with Live Server"**.  
